@@ -36,8 +36,8 @@ def display_results(word_count, letter_counts,book_path):
     
     letter_counts = [x[::-1] for x in letter_counts.items()]
     letter_counts.sort(reverse=True)
-    for item in letter_counts:
-        num, letter = item
+    
+    for num,letter in letter_counts:
         print(f"The letter {letter} was found {num} times.")
     print("--- End report --- \n")
 main()
