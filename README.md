@@ -1,3 +1,3 @@
 # bookbot
-This tutorial bot READS BOOKS and BASICALLY you are illiterate
+A trivial bot made as part of an exercise. It reads books. Or at least, it pretends to.
 
